@@ -13,7 +13,7 @@ const App = () => {
         minHeight="100vh"
         gap={2}
       >
-        <TextField onChange={(e) => setInput(e.target.value)} id="outlined-basic" label="meno.priezvisko" variant="outlined" />
+        <TextField onChange={(e) => setInput(e.target.value)} id="outlined-basic" label="priezvisko.meno" variant="outlined" />
         <Button onClick={() => handleRedirect(input)} variant="contained">Presmerovať</Button>
       </Box>
     </form>
